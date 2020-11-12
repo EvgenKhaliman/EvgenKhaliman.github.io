@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(246, 246, 239);
+    font-size: 18px;
+}
+h1{
+    color: grey;
+}
+
+.container{
+    max-width: 800px;
+    background-color: #fff;
+    margin: 0 auto;
+    min-height: 100vh;
+    
+}
+.head{
+    position: relative;
+    width: 100%;
+    
+}
+
+.foto{
+    position: relative;
+    padding-top: 1rem;
+    display: grid;
+    justify-content: center;
+}
+.myFoto{
+    border-radius: 100px; /* Радиус скругления */
+    border: 1px solid wheat; /* Параметры рамки */
+    box-shadow: 0 0 3px rgb(230, 155, 155);
+    width: 30vmin;
+    height: 30vmin;
+    max-width: 90px;
+    max-height: 90px;
+}
+.header{
+    text-align: center;
+    margin-top: 20px;
+}
+.far{
+    color: rgb(47, 144, 201);
+}
+.visits{
+    text-align: center;
+    margin-top: 20px;
+}
+.count{
+    margin-left: 20px;
+    color: gray;
+}
